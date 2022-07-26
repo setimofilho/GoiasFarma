@@ -314,6 +314,11 @@ body {
 
     @media (max-width: 520px) {
 
+        &__data {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
         &__capa {
             margin-bottom: 1em;
         }
@@ -321,6 +326,7 @@ body {
         &__links {
             text-align: center;
             width: 100%;
+            font-size: .8em;
     
             a {
                 margin: 1em 0; 
