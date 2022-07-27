@@ -844,6 +844,18 @@ body {
             }
         }
 
+        a {
+            color: var(--cor-contraste);
+            display: block;
+            margin-top: 1em;
+            text-decoration: underline var(--cor-cinza-fundo);
+            transition: .3s;
+
+            &:hover {
+                color: var(--cor-cinza-50);
+            }
+        }
+
         @media (max-width: 980px) {
             padding: 0 3em;
         }
