@@ -505,6 +505,14 @@ body {
     overflow: hidden;
     background-color: var(--cor-dark);
 
+    a {
+        transition: .3s;
+
+        &:hover {
+            filter: brightness(70%);
+        }
+    }
+
     // .destaque__foto-principal ---------------------------------
     &__foto-principal {
         padding: 0;
